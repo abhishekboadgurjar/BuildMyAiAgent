@@ -9,7 +9,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-900">
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">BuildMyAiAgent</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">Ai Agent Builder</h1>
           <p className="text-lg sm:text-xl text-slate-600 mb-8">
             Create, test, and deploy custom AI agents with an intuitive visual builder.
             Connect APIs, design workflows, and iterate quickly — no boilerplate required.
@@ -66,7 +66,7 @@ export default function HomePage() {
 
       <footer className="border-t bg-slate-50 py-8">
         <div className="container mx-auto px-6 flex flex-col sm:flex-row items-center justify-between">
-          <div className="text-sm text-slate-600">© {new Date().getFullYear()} BuildMyAiAgent</div>
+          <div className="text-sm text-slate-600">© {new Date().getFullYear()} Ai Agent Builder</div>
         </div>
       </footer>
     </main>

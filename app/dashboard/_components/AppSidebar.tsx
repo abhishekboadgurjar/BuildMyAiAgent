@@ -52,7 +52,7 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <div className="flex gap-2 items-center m-2">
       <Image src={'/logo.svg'} alt="logo" width={35} height={36}/>
-     {open&&  <h2 className="font-bold text-lg">BuildMyAiAgent</h2>}
+     {open&&  <h2 className="font-bold text-lg">Ai Agent Builder</h2>}
       </div>
       <SidebarHeader />
       <SidebarContent>
